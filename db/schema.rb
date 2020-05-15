@@ -15,7 +15,7 @@ ActiveRecord::Schema.define(version: 2020_05_15_043011) do
   create_table "restaurants", force: :cascade do |t|
     t.string "name"
     t.string "address"
-    t.integer "rating"
+    t.integer "stars"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
